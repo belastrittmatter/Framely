@@ -4,7 +4,7 @@ import React from "react";
 import EditorNavigation from "../../components/editor/editor-navigation";
 import { auth } from "@clerk/nextjs/server";
 import PageEditor from "@/app/components/editor/page-editor";
-import { SignIn } from "@clerk/nextjs";
+import { RedirectToSignIn, SignIn } from "@clerk/nextjs";
 import LeftSidebar from "@/app/components/editor/editor-sidebar/left-sidebar";
 import RightSidebar from "@/app/components/editor/editor-sidebar/right-sidebar";
 
@@ -26,7 +26,7 @@ const Page = async ({ params }: Props) => {
 
   // TODO: Display access denied page, add ability for users to request access (?)
   if (!pageDetails || !(session.userId === pageDetails.userId)) {
-    return <SignIn />;
+    return <RedirectToSignIn />;
   }
 
   return (
