@@ -17,30 +17,15 @@ Framely is a full-stack Next.js application offering multi-tenancy, custom domai
 
 <img alt="Framely Website Builder Demo Gif" src="/public/demo.gif">
 
-🚧 **This project is currently under active development.** Some features are already functional, while most are still being actively built. Contributions and feedback are highly appreciated to shape its final form!
-
 ---
 
-## Features (Current & Planned)
-
-### ✅ **Current Features**
+## Features
 
 - **Authentication:** User authentication powered by Clerk.
 - **Dashboard:** Create and view sites.
 - **Backend Logic for the Website Builder:** Core backend functionality for handling website structure and data.
 - **Drag-and-Drop Website Builder:** Fully customizable, user-friendly interface for creating websites.
 - **Multi-Tenancy:** Full support for subdomains
-
-### 🚀 **Coming Soon...**
-
-- **Generated CSS Preview:** View and customize the generated CSS for every element
-- **Optimised NextJS Exports:** Export sites as an optimised NextJS build
-- **SEO:** Optimized SEO Ranking for custom sites
-- **Dynamic OG Cards:** Automatic Open Graph image generation for user content.
-- **Image Uploads:** Drag-and-drop image uploads for adding visual content to websites.
-- **Site Analytics:** Track site performance and user behavior.
-- **TailwindCSS Support** Edit a custom site with TailwindCSS attributes
-- **Custom Domain Support**
 
 ---
 
@@ -74,7 +59,7 @@ Creating Framely would not have been possible without the following resources:
 
 ## Contributing
 
-We welcome contributions!
+While I am no longer actively building features, I still welcome contributions!
 
 1. **Start a Discussion:** Share your ideas, feedback, or questions.
 2. **Open an Issue:** Report bugs or suggest improvements.
