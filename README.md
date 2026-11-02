@@ -4,8 +4,6 @@
 
 <p align="center">
   <a href="#introduction"><strong>Introduction</strong></a> ·
-  <a href="#features-current--planned"><strong>Features</strong></a> ·
-  <a href="#demo"><strong>Demo</strong></a> ·
   <a href="#contributing"><strong>Contributing</strong></a>
 </p>
 
@@ -26,12 +24,6 @@ Framely is a full-stack Next.js application offering multi-tenancy, custom domai
 - **Backend Logic for the Website Builder:** Core backend functionality for handling website structure and data.
 - **Drag-and-Drop Website Builder:** Fully customizable, user-friendly interface for creating websites.
 - **Multi-Tenancy:** Full support for subdomains
-
----
-
-## Demo
-
-[**View the live Demo**](https://framely.site)
 
 ---
 
